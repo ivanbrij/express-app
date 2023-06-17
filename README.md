@@ -12,4 +12,4 @@ I added the workflow google-cloudrun-source.yml to deloy the app into GCP Cloud 
 
 The URL for the app is:
 
-[https://express-app-3sxy5yiznq-uw.a.run.app/] 
+https://express-app-3sxy5yiznq-uw.a.run.app/ 
