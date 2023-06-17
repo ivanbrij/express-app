@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Release NodeJS app
 
 on:
   push:
@@ -6,23 +6,8 @@ on:
       - main
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: npm
-
-      - name: Install dependencies
-        run: npm install
-      - name: Run the app
-        run: node index.js
-
-  publish-docker-hub:
-    name: Publish image to Docker Hub
+  build:
+    name: Build and publish on docker-hub
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
