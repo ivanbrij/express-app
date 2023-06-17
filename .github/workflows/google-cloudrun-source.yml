@@ -51,7 +51,7 @@ on:
     branches: [ "main" ]
 
 env:
-  PROJECT_ID: dermoapp-backend # TODO: update Google Cloud project id
+  PROJECT_ID: coastal-cell-339517 # TODO: update Google Cloud project id
   SERVICE: express-app # TODO: update Cloud Run service name
   REGION: us-west1 # TODO: update Cloud Run service region
 
