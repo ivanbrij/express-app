@@ -8,7 +8,7 @@ I added the workflow deploy.yml to build the image and store at Docker-Hub
 
 ## Excercise 3.2
 
-I added the workflow google-cloudrun-source.yml to deloy the app into GCP Cloud Run 
+I added the workflow google-cloudrun-source.yml to deploy the app into GCP Cloud Run 
 
 The URL for the app is:
 
